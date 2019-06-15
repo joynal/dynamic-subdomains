@@ -1,0 +1,21 @@
+{
+  "name": "dynamic-subdomains",
+  "version": "1.0.0",
+  "description": "Example of how to handle dynamic subdomains",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joynal Abedin",
+  "license": "MIT",
+  "homepage": "https://github.com/joynal/dynamic-subdomains",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "wildcard-subdomains": "^1.1.0"
+  }
+}
