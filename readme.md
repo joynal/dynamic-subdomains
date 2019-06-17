@@ -22,6 +22,14 @@ app.use('/_sub/:subdomain', express.static(path.resolve(__dirname, '..', 'spa-ap
 
 If you want to use subdomain in you SPA, simply render app with subdomain & serve.
 
+## Nginx
+
+Generate dhparam:
+
+```
+openssl dhparam -out config/ssl/dhparam.pem 4096
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [license.md](./license.md) file for details
